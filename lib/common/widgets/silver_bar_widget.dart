@@ -42,7 +42,7 @@ class SilverBarWidget extends StatelessWidget {
               children: [
                 Text(
                   _priceController.silverPricesUsd.isNotEmpty
-                      ? "USD ${_priceController.silverPricesUsd[0].price}"
+                      ? "USD ${_priceController.silverPricesUsd[0].bid}"
                       : "USD NA",
                   style: MyTextStyles.mediumBold,
                 ),

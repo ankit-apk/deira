@@ -39,10 +39,13 @@ class HomeScreen extends StatelessWidget {
                   style: MyTextStyles.mediumText,
                 ),
                 const Spacer(),
-                // Text(
-                //   "${DateTime.now().hour}:${DateTime.now().minute}",
-                //   style: MyTextStyles.mediumText,
-                // ),
+                Text(
+                  "${DateTime.now().hour}:${DateTime.now().minute}",
+                  style: MyTextStyles.mediumText,
+                ),
+                SizedBox(
+                  width: 34.w,
+                ),
               ],
             ),
             SizedBox(

@@ -45,7 +45,7 @@ class GoldBarWidget extends StatelessWidget {
               children: [
                 Text(
                   _priceController.goldPricesUsd.isNotEmpty
-                      ? "USD ${_priceController.goldPricesUsd[0].price}"
+                      ? "USD ${_priceController.goldPricesUsd[0].bid}"
                       : "USD NA",
                   style: MyTextStyles.mediumBold,
                 ),
